@@ -1,0 +1,150 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set font styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the product image */
+.product-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the product details container */
+.product-details-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the product name */
+.product-details h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style the product description */
+.product-details p {
+    font-size: 1rem;
+}
+
+/* Style the product price */
+.product-details .price {
+    font-size: 1.25rem;
+    color: #007bff; /* Price color */
+}
+
+/* Style the "Add to Cart" button */
+.add-to-cart-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* Add this CSS to your style3.css file */
+
+/* Container for the product details */
+.product-details-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px; /* Adjust the maximum width as needed */
+}
+
+/* Style for the product image */
+.product-image {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin-bottom: 20px; /* Add some spacing between the image and other details */
+}
+
+/* Style for the product name */
+.product-details-container h1 {
+    font-size: 24px;
+}
+
+/* Style for the product price */
+.product-details-container .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for the Add to Cart button */
+.product-details-container .add-to-cart-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff; /* Change the color on hover if desired */
+}
